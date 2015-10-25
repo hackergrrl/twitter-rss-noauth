@@ -12,7 +12,7 @@ module.exports = function (username, cb, rssFormat) {
       cb(err)
     } else {
       var feed = new Feed({
-        title: 'Twitter RSS',
+        title: username + ' Twitter feed',
         description: 'A generated feed of the tweets from ' + username,
         link: url,
         image: '???',
