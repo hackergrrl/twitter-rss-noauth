@@ -25,6 +25,9 @@ module.exports = function (username, cb, rssFormat) {
       })
 
       tweets.forEach(function (item) {
+        if (!item.content) {
+          return
+        }
         feed.addItem({
           title: item.content,
           link: item.url,
