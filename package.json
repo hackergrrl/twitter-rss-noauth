@@ -1,0 +1,21 @@
+{
+  "name": "twitter-rss-noauth",
+  "description": "get a Twitter user timeline as an RSS feed without Twitter API auth",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/noffle/twitter-rss-noauth.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {
+    "feed": "^0.2.6",
+    "request": "^2.65.0",
+    "xmldom": "^0.1.19",
+    "xpath": "0.0.9"
+  },
+  "devDependencies": {
+    "tape": "*"
+  }
+}
