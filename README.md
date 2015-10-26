@@ -9,9 +9,6 @@
 Like [rss-twitter](https://www.npmjs.com/package/rss-twitter), but without using
 the restrictive Twitter API! Huzzah for open access without authentication!
 
-Based on the [Perl implementation](http://perlmonks.org/?node_id=1039382) by
-[ciderpunx](http://perlmonks.org/?node_id=373188).
-
 
 ## installation
 
