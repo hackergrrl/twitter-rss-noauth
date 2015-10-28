@@ -11,10 +11,7 @@
   },
   "dependencies": {
     "feed": "^0.2.6",
-    "latest-tweets": "^0.1.0",
-    "request": "^2.65.0",
-    "xmldom": "^0.1.19",
-    "xpath": "0.0.9"
+    "latest-tweets": "^0.1.0"
   },
   "devDependencies": {
     "tape": "*"
