@@ -28,8 +28,12 @@ module.exports = function (username, cb, rssFormat) {
         if (!item.content) {
           return
         }
+        var title = item.content
+        if (item.retweet) {
+          title = '[RT ' + item.username + '] ' + title
+        }
         feed.addItem({
-          title: item.content,
+          title: title,
           link: item.url,
           content: item.content,
           date: item.date
